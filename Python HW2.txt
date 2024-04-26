@@ -1,0 +1,34 @@
+1)
+
+a=int(input())
+b=int(input())
+summ=0
+summch=0
+summ9=0
+for i in range(a,b+1):
+    if i%2!=0:
+        summ+=i
+    if i%2==0:
+        summch+=i
+    if i%9==0:
+        summ9+=i
+print("Сумма нечетных: ",summ)
+print("Сумма четных: ",summch)
+print("Сумма кратных на 9: ",summ9)
+
+
+
+
+2)
+
+
+
+x = float(input()) 
+if (x > 0) and (x != 7): 
+    print('Number is positive') 
+elif x < 0: 
+    print('Number is negative') 
+elif x == 0: 
+    print('Number is equal to zero') 
+elif x == 7: 
+    print('Good bye!')
